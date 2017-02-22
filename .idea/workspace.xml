@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a6390709-b371-44fa-b470-3ca45b27b386" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
     </list>
     <ignored path="IonicPushes.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,20 +35,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.666667">
-              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.02">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12811388">
+            <state vertical-scroll-proportion="-1.2857143">
               <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
@@ -69,27 +69,27 @@
         <entry file="file://$PROJECT_DIR$/www/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="118" column="121" selection-start-line="118" selection-start-column="121" selection-end-line="118" selection-end-column="121" />
+              <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
               <folding>
                 <element signature="e#22#114#0" expanded="false" />
                 <element signature="e#516#610#0" expanded="false" />
                 <element signature="e#720#843#0" expanded="false" />
                 <element signature="e#870#956#0" expanded="false" />
-                <element signature="e#1377#2732#0" expanded="false" />
-                <element signature="e#1382#1445#0" expanded="false" />
-                <element signature="e#1712#1793#0" expanded="false" />
-                <element signature="e#1863#2012#0" expanded="false" />
-                <element signature="e#1894#2008#0" expanded="false" />
-                <element signature="e#1914#2002#0" expanded="false" />
-                <element signature="e#2037#2206#0" expanded="false" />
-                <element signature="e#2073#2200#0" expanded="false" />
-                <element signature="e#2096#2192#0" expanded="false" />
-                <element signature="e#2238#2422#0" expanded="false" />
-                <element signature="e#2282#2416#0" expanded="false" />
-                <element signature="e#2305#2408#0" expanded="false" />
-                <element signature="e#2449#2610#0" expanded="false" />
-                <element signature="e#2483#2606#0" expanded="false" />
-                <element signature="e#2506#2600#0" expanded="false" />
+                <element signature="e#2505#3860#0" expanded="false" />
+                <element signature="e#2510#2573#0" expanded="false" />
+                <element signature="e#2840#2921#0" expanded="false" />
+                <element signature="e#2991#3140#0" expanded="false" />
+                <element signature="e#3022#3136#0" expanded="false" />
+                <element signature="e#3042#3130#0" expanded="false" />
+                <element signature="e#3165#3334#0" expanded="false" />
+                <element signature="e#3201#3328#0" expanded="false" />
+                <element signature="e#3224#3320#0" expanded="false" />
+                <element signature="e#3366#3550#0" expanded="false" />
+                <element signature="e#3410#3544#0" expanded="false" />
+                <element signature="e#3433#3536#0" expanded="false" />
+                <element signature="e#3577#3738#0" expanded="false" />
+                <element signature="e#3611#3734#0" expanded="false" />
+                <element signature="e#3634#3728#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -123,8 +123,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/www/js/app.js" />
         <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/www/js/app.js" />
         <option value="$PROJECT_DIR$/www/index.html" />
       </list>
     </option>
@@ -487,21 +487,21 @@
             <element signature="e#516#610#0" expanded="false" />
             <element signature="e#720#843#0" expanded="false" />
             <element signature="e#870#956#0" expanded="false" />
-            <element signature="e#1377#2732#0" expanded="false" />
-            <element signature="e#1382#1445#0" expanded="false" />
-            <element signature="e#1712#1793#0" expanded="false" />
-            <element signature="e#1863#2012#0" expanded="false" />
-            <element signature="e#1894#2008#0" expanded="false" />
-            <element signature="e#1914#2002#0" expanded="false" />
-            <element signature="e#2037#2206#0" expanded="false" />
-            <element signature="e#2073#2200#0" expanded="false" />
-            <element signature="e#2096#2192#0" expanded="false" />
-            <element signature="e#2238#2422#0" expanded="false" />
-            <element signature="e#2282#2416#0" expanded="false" />
-            <element signature="e#2305#2408#0" expanded="false" />
-            <element signature="e#2449#2610#0" expanded="false" />
-            <element signature="e#2483#2606#0" expanded="false" />
-            <element signature="e#2506#2600#0" expanded="false" />
+            <element signature="e#2505#3860#0" expanded="false" />
+            <element signature="e#2510#2573#0" expanded="false" />
+            <element signature="e#2840#2921#0" expanded="false" />
+            <element signature="e#2991#3140#0" expanded="false" />
+            <element signature="e#3022#3136#0" expanded="false" />
+            <element signature="e#3042#3130#0" expanded="false" />
+            <element signature="e#3165#3334#0" expanded="false" />
+            <element signature="e#3201#3328#0" expanded="false" />
+            <element signature="e#3224#3320#0" expanded="false" />
+            <element signature="e#3366#3550#0" expanded="false" />
+            <element signature="e#3410#3544#0" expanded="false" />
+            <element signature="e#3433#3536#0" expanded="false" />
+            <element signature="e#3577#3738#0" expanded="false" />
+            <element signature="e#3611#3734#0" expanded="false" />
+            <element signature="e#3634#3728#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -530,42 +530,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/PushNotification.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="118" column="121" selection-start-line="118" selection-start-column="121" selection-end-line="118" selection-end-column="121" />
-          <folding>
-            <element signature="e#22#114#0" expanded="false" />
-            <element signature="e#516#610#0" expanded="false" />
-            <element signature="e#720#843#0" expanded="false" />
-            <element signature="e#870#956#0" expanded="false" />
-            <element signature="e#1377#2732#0" expanded="false" />
-            <element signature="e#1382#1445#0" expanded="false" />
-            <element signature="e#1712#1793#0" expanded="false" />
-            <element signature="e#1863#2012#0" expanded="false" />
-            <element signature="e#1894#2008#0" expanded="false" />
-            <element signature="e#1914#2002#0" expanded="false" />
-            <element signature="e#2037#2206#0" expanded="false" />
-            <element signature="e#2073#2200#0" expanded="false" />
-            <element signature="e#2096#2192#0" expanded="false" />
-            <element signature="e#2238#2422#0" expanded="false" />
-            <element signature="e#2282#2416#0" expanded="false" />
-            <element signature="e#2305#2408#0" expanded="false" />
-            <element signature="e#2449#2610#0" expanded="false" />
-            <element signature="e#2483#2606#0" expanded="false" />
-            <element signature="e#2506#2600#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -582,17 +546,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
+    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-console/www/console-via-logger.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.666667">
-          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.17475729">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+          <folding>
+            <element signature="e#22#114#0" expanded="false" />
+            <element signature="e#516#610#0" expanded="false" />
+            <element signature="e#720#843#0" expanded="false" />
+            <element signature="e#870#956#0" expanded="false" />
+            <element signature="e#2505#3860#0" expanded="false" />
+            <element signature="e#2510#2573#0" expanded="false" />
+            <element signature="e#2840#2921#0" expanded="false" />
+            <element signature="e#2991#3140#0" expanded="false" />
+            <element signature="e#3022#3136#0" expanded="false" />
+            <element signature="e#3042#3130#0" expanded="false" />
+            <element signature="e#3165#3334#0" expanded="false" />
+            <element signature="e#3201#3328#0" expanded="false" />
+            <element signature="e#3224#3320#0" expanded="false" />
+            <element signature="e#3366#3550#0" expanded="false" />
+            <element signature="e#3410#3544#0" expanded="false" />
+            <element signature="e#3433#3536#0" expanded="false" />
+            <element signature="e#3577#3738#0" expanded="false" />
+            <element signature="e#3611#3734#0" expanded="false" />
+            <element signature="e#3634#3728#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/PushNotification.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12811388">
+        <state vertical-scroll-proportion="-1.2857143">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.02">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
