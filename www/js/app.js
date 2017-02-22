@@ -22,57 +22,11 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     }
 
 
-
-
-
-// ON SUCCESS REGISTER IN GCM
-    function successHandler(result) {
-      console.log('successHandler');
-      console.log('Success: '+ result);
-    }
-// ON ERROR
-    function errorHandler(error) {
-      console.log('Error: '+ error);
-    }
-
-// ON PUSH
-    function onNotificationGCM(e) {
-      switch(e.event){
-        case 'registered':
-          if (e.regid.length > 0){
-            console.log('registered bloock in onNotificationGCM');
-            console.log('deviceRegistered - is the next even if I cant see where is this func - maybe I should write it...');
-            deviceRegistered(e.regid);
-          }
-          break;
-
-        case 'message':
-          if (e.foreground){
-            // When the app is running foreground.
-            alert('The room temperature is set too high')
-          }
-          break;
-
-        case 'error':
-          console.log('Error: ' + e.msg);
-          break;
-
-        default:
-          console.log('An unknown event was received');
-          break;
-      }
-    }
-
-    //function test_log() {
-    //  console.log('log works');
-    //}
-    //
-    //
-    //
-    //test_log();
-
     // ON INIT
+    // weird test info collector without console.log outside of angular
+    window.tests = [];
     console.log('INITIALIZED');
+
     // REGISTER IN GCM
     var pushNotification = window.plugins.pushNotification;
 
@@ -149,3 +103,42 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 
 });
 
+
+
+// ON SUCCESS REGISTER IN GCM
+function successHandler(result) {
+  window.tests.push('successHandler');
+  window.tests.push('Success: '+ result);
+}
+// ON ERROR
+function errorHandler(error) {
+  window.tests.push('Error: '+ error);
+}
+
+// ON PUSH
+function onNotificationGCM(e) {
+  switch(e.event){
+    case 'registered':
+      if (e.regid.length > 0){
+        window.tests.push('registered bloock in onNotificationGCM');
+        window.tests.push('deviceRegistered - is the next even if I cant see where is this func - maybe I should write it...');
+        deviceRegistered(e.regid);
+      }
+      break;
+
+    case 'message':
+      if (e.foreground){
+        // When the app is running foreground.
+        alert('The room temperature is set too high')
+      }
+      break;
+
+    case 'error':
+      window.tests.push('Error: ' + e.msg);
+      break;
+
+    default:
+      window.tests.push('An unknown event was received');
+      break;
+  }
+}
