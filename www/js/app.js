@@ -25,7 +25,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     // ON INIT
     // weird test info collector without console.log outside of angular
     window.tests = [];
-    console.log('INITIALIZED');
+    window.tests.push('INITIALIZED');
 
     // REGISTER IN GCM
     var pushNotification = window.plugins.pushNotification;
