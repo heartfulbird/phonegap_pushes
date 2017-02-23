@@ -28,16 +28,52 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     window.tests.push('INITIALIZED');
 
     // REGISTER IN GCM
-    var pushNotification = window.plugins.pushNotification;
+    //var pushNotification = window.plugins.pushNotification;
+    //
+    //pushNotification.register(
+    //        successHandler,
+    //        errorHandler,
+    //        {
+    //          'senderID':'digger-159520',
+    //          'ecb':'onNotificationGCM' // callback function
+    //        }
+    //);
 
-    pushNotification.register(
-            successHandler,
-            errorHandler,
-            {
-              'senderID':'digger-159520',
-              'ecb':'onNotificationGCM' // callback function
-            }
-    );
+    var push = PushNotification.init({
+      android: {
+        senderID: "digger-159520"
+      },
+      //browser: {
+      //  pushServiceURL: 'http://push.api.phonegap.com/v1/push'
+      //},
+      //ios: {
+      //  alert: "true",
+      //  badge: "true",
+      //  sound: "true"
+      //},
+      windows: {}
+    });
+
+    push.on('registration', function(data) {
+      // data.registrationId
+      window.tests.push(data);
+      window.tests.push(data.registrationId);
+    });
+
+    push.on('notification', function(data) {
+      // data.message,
+      // data.title,
+      // data.count,
+      // data.sound,
+      // data.image,
+      // data.additionalData
+      window.tests.push(data);
+    });
+
+    push.on('error', function(e) {
+      // e.message
+      window.tests.push(e.message);
+    });
 
   });
 })
@@ -104,41 +140,41 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 });
 
 
-
-// ON SUCCESS REGISTER IN GCM
-function successHandler(result) {
-  window.tests.push('successHandler');
-  window.tests.push('Success: '+ result);
-}
-// ON ERROR
-function errorHandler(error) {
-  window.tests.push('Error: '+ error);
-}
-
-// ON PUSH
-function onNotificationGCM(e) {
-  switch(e.event){
-    case 'registered':
-      if (e.regid.length > 0){
-        window.tests.push('registered bloock in onNotificationGCM');
-        window.tests.push('deviceRegistered - is the next even if I cant see where is this func - maybe I should write it...');
-        deviceRegistered(e.regid);
-      }
-      break;
-
-    case 'message':
-      if (e.foreground){
-        // When the app is running foreground.
-        alert('The room temperature is set too high')
-      }
-      break;
-
-    case 'error':
-      window.tests.push('Error: ' + e.msg);
-      break;
-
-    default:
-      window.tests.push('An unknown event was received');
-      break;
-  }
-}
+//
+//// ON SUCCESS REGISTER IN GCM
+//function successHandler(result) {
+//  window.tests.push('successHandler');
+//  window.tests.push('Success: '+ result);
+//}
+//// ON ERROR
+//function errorHandler(error) {
+//  window.tests.push('Error: '+ error);
+//}
+//
+//// ON PUSH
+//function onNotificationGCM(e) {
+//  switch(e.event){
+//    case 'registered':
+//      if (e.regid.length > 0){
+//        window.tests.push('registered bloock in onNotificationGCM');
+//        window.tests.push('deviceRegistered - is the next even if I cant see where is this func - maybe I should write it...');
+//        deviceRegistered(e.regid);
+//      }
+//      break;
+//
+//    case 'message':
+//      if (e.foreground){
+//        // When the app is running foreground.
+//        alert('The room temperature is set too high')
+//      }
+//      break;
+//
+//    case 'error':
+//      window.tests.push('Error: ' + e.msg);
+//      break;
+//
+//    default:
+//      window.tests.push('An unknown event was received');
+//      break;
+//  }
+//}
