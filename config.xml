@@ -44,5 +44,5 @@
     <splash src="resources/android/splash/drawable-port-xxxhdpi-screen.png" density="port-xxxhdpi"/>
   </platform>
 
-  <gap:plugin name="org.apache.cordova.dialogs" />
+  <gap:plugin name="phonegap-plugin-push" />
 </widget>
