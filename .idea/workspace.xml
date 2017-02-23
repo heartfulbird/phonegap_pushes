@@ -69,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.8226601">
-              <caret line="47" column="54" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
+              <caret line="47" column="55" selection-start-line="47" selection-start-column="55" selection-end-line="47" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -480,7 +480,13 @@
       <option name="project" value="LOCAL" />
       <updated>1487808660281</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add to string about plugin  source=&quot;npm&quot;">
+      <created>1487808842165</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1487808842165</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -516,7 +522,8 @@
     <MESSAGE value="idea" />
     <MESSAGE value="change plugin" />
     <MESSAGE value="xml string for remote build with plugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="xml string for remote build with plugin" />
+    <MESSAGE value="add to string about plugin  source=&quot;npm&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="add to string about plugin  source=&quot;npm&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -630,7 +637,7 @@
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8226601">
-          <caret line="47" column="54" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
+          <caret line="47" column="55" selection-start-line="47" selection-start-column="55" selection-end-line="47" selection-end-column="55" />
           <folding />
         </state>
       </provider>

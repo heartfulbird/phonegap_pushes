@@ -45,5 +45,5 @@
   </platform>
 
   <!--<gap:plugin name="phonegap-plugin-push" source="npm" spec="1.5.3" />-->
-  <gap:plugin name="phonegap-plugin-push" source="npm"/>
+  <gap:plugin name="phonegap-plugin-push" source="npm" />
 </widget>
